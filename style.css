@@ -85,8 +85,6 @@ p {
   font-weight: 600;
 }
 
-
-
 .project a:hover {
   text-decoration: underline;
 }
@@ -120,4 +118,8 @@ footer {
     padding: 1rem;
   }
 
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
 }
