@@ -85,6 +85,21 @@ p {
   font-weight: 600;
 }
 
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 1rem auto;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 3px solid #007bff;
+  background-color: white;
+  padding: 5px;
+  /* centratura compensata */
+  transform: translateY(8px);
+}
+
 .project a:hover {
   text-decoration: underline;
 }
